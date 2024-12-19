@@ -1,0 +1,257 @@
+/* styles.css */
+
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+ html {
+   display: flex;
+   overflow-y: scroll;
+   overflow-x: scroll;
+
+  }
+ 
+body {
+  
+    margin:0;
+    overflow: hidden;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* Header Code */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;  
+    
+    
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    color: #e5e7EB;
+    margin: 20px;;
+    margin-right: 220px;
+
+}
+
+a {
+    color: #e5e7EB;
+    text-decoration: none;
+    font-size: 18px;
+    margin:15px;
+ 
+    
+}
+
+.headerlogo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin: 20px;
+    margin-left: 220px;
+}
+
+
+/* First Block code*/
+
+.box1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 460px;
+    background-color: #1F2937;
+
+    
+}
+
+.firstblockimage {
+    width:550px;
+    height:auto;
+    
+}
+
+.leftblock {
+    margin-left: 220px;
+
+}
+
+.rightblock {
+    margin-right: 220px
+}
+
+h1 {
+    width: 400px;
+    color: #F9FAF8;
+    font-weight: 900px;
+    font-size: 48px;
+}
+
+h3 {
+    width: 400px;
+    color: #e5e7EB;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+button {
+    background-color:#3882f6;
+    color: white;
+    padding:10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+    width: 140px;
+}
+
+
+/* Second Block Code */
+
+.box2{
+    width:auto;
+    height: 500px;
+
+}
+.title {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    color: black;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.randominformation {
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+.secondblockimage {
+    width: 200px;
+    height: auto;
+}
+
+.secondblocktext {
+    width: 200px;
+    color: black;
+    text-align: center;
+
+}
+
+/* Third Block Code */
+
+.box3 {
+    display: flex;
+    align-items: center;
+    height: 430px;
+    background-color: #e5e7EB;
+    flex-direction: column;
+
+}
+
+
+
+.quote {
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    width: 800px;
+    font-weight: 300;
+    margin-top: 100px;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+.thor {
+    display: flex;
+    color: black;
+    font-weight: 900;
+    font-size: 24px;
+    align-items: center;
+    margin-top: 3px;
+    margin-left: 450px;
+    
+}
+
+/* Fourth Block Code */
+
+.box4 {
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    background-color: white;
+    align-items: center;
+
+}
+
+.container {
+    background-color: #3882f6;
+    width: 70%;
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fourthblockleft1 {
+    display: flex;
+    justify-content: left;
+    margin-left: 100px;
+    margin-bottom: 0;
+    margin-top: 50px;
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+}
+
+.fourthblockleft2 {
+    display: flex;
+    justify-content: left;
+    margin-left: 100px;
+    margin-top: 0;
+    color: #e5e7EB;
+    
+}
+
+.fourthblockright {
+    display: flex;
+    justify-content: right;
+    margin-right: 13%;
+    margin-top: 50px;
+    
+}
+
+.signup {
+    height: 40px;
+    border-color: white;
+    border-style: solid;
+
+
+}
+
+
+/* Footer Code */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    background-color: #1F2937;   
+    align-items: center;       
+}
+
+h4 {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
